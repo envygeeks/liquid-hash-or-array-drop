@@ -7,7 +7,7 @@ require "liquid/drop"
 
 module Liquid
   class Drop
-    class HashOrArray < Liquid::Drop
+    class HashOrArray < Drop
       extend Forwardable::Extended
 
       # --
